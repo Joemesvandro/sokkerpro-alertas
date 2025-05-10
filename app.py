@@ -223,7 +223,7 @@ print("🚀 Coleta + análise + alerta a cada 5 minutos...\n")
 try:
     while True:
         hora_atual = datetime.now().hour
-        if 08 <= hora_atual <= 24:
+        if 09 <= hora_atual <= 23:
             coletar_dados()
             analisar_e_enviar()
         else:
