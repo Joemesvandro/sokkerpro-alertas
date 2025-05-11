@@ -151,7 +151,7 @@ def analisar_e_enviar():
         enviados_df = pd.DataFrame()
         mandantes_datas_enviadas = set()
 
-    df = df[((df["Tempo"] >= 25) & (df["Tempo"] <= 30)) | ((df["Tempo"] >= 75) & (df["Tempo"] <= 80))]
+    df = df[((df["Tempo"] >= 30) & (df["Tempo"] <= 35)) | ((df["Tempo"] >= 80) & (df["Tempo"] <= 85))]
 
     candidatos = []
 
